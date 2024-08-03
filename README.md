@@ -27,11 +27,6 @@
      <img src="artwork/mask/5.png" alt="Image 2" width="200"/>
     <img src="artwork/output/5.png" alt="Image 3" width="200"/>
 </p>
-<p align="center">
-     <img src="artwork/img/6.png" alt="Image 1" width="200"/>
-     <img src="artwork/mask/6.png" alt="Image 2" width="200"/>
-    <img src="artwork/output/6.png" alt="Image 3" width="200"/>
-</p>
 
 Download weights from Google Drive
 ```bash
