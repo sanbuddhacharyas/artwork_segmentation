@@ -1,5 +1,13 @@
 # Art Segmentation
 
+
+Download weights from Google Drive
+```bash
+    gdown --id 1EDUARyROWS1yUbqTcZ0AhJ7K-31M9MZk
+    unzip weight.zip
+```
+Manually from ```bash https://drive.google.com/file/d/1EDUARyROWS1yUbqTcZ0AhJ7K-31M9MZk/view?usp=drive_link ```
+
 ## Install Required Dependencies
 Create Virtual Environment
 ```bash
@@ -11,13 +19,6 @@ Install Dependencies
 ```bash
     pip install -r requirements.txt
 ```
-Download weights from Google Drive
-```bash
-    gdown --id 1EDUARyROWS1yUbqTcZ0AhJ7K-31M9MZk
-    unzip weight.zip
-```
-Manually from ```bash https://drive.google.com/file/d/1EDUARyROWS1yUbqTcZ0AhJ7K-31M9MZk/view?usp=drive_link ```
-
 
 Run Flask program
 ```bash
@@ -45,6 +46,13 @@ POST body
         "image":"<base64 image>"
     }
 ```
+
+## Run Docker 
+```bash
+    docker build -t <your_tag> .
+    docker container run -p 5001:5000 <your_tag>
+```
+
 
 # Deploying Art Detector AI Engine in Elastic BeanStalk
 
