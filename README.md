@@ -1,11 +1,15 @@
 # Art Segmentation
-<div style="background-color: #fff">
-    <p align="center">
-      <img src="artwork/img/13.png" alt="Image 1" width="200"/>
-      <img src="artwork/mask/13.png" alt="Image 2" width="200"/>
-      <img src="artwork/output/13.png" alt="Image 3" width="200"/>
-    </p>
-</div>
+
+<p align="center">
+  <img src="artwork/img/8.jpg" alt="Image 1" width="200"/>
+  <img src="artwork/mask/8.png" alt="Image 2" width="200"/>
+  <img src="artwork/output/8.png" alt="Image 3" width="200"/>
+</p>
+<p align="center">
+     <img src="artwork/img/6.png" alt="Image 1" width="200"/>
+     <img src="artwork/mask/6.png" alt="Image 2" width="200"/>
+    <img src="artwork/output/6.png" alt="Image 3" width="200"/>
+</p>
 
 <p align="center">
      <img src="artwork/img/14.jpg" alt="Image 1" width="200"/>
