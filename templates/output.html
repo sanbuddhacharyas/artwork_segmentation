@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Art Segmentation</title>
+        
+        <h2>Type: {{type}}</h2>
+        <img src='static/img/output.png', width={{width}} height={{height}}><br>
+
+        <button id="retake" onclick='OnClick();'>ReTake</button>
+
+    </head>
+<body>
+    <script>
+        function OnClick(){
+            varclick = document.getElementById("retake"); 
+            window.location.href = 'segmentart' 
+        }
+    </script>
+    
+</body>
+</html>

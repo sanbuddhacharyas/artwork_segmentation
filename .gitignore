@@ -1,0 +1,8 @@
+weights/*
+*.jpg
+*.png
+*.webp
+*.jpeg
+*.pth
+*.pt
+*.ipynb

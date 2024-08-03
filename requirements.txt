@@ -1,0 +1,13 @@
+opencv-python==4.6.0.66
+opencv-contrib-python==4.6.0.66
+opencv-python-headless==4.6.0.66
+numpy
+Flask
+Flask-RESTful
+Flask-WTF
+imutils
+rembg
+urllib3==1.26.6
+protobuf==3.19.0
+ultralytics==8.0.123
+segment_anything
