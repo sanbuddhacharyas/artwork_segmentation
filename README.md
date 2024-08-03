@@ -11,16 +11,28 @@ Install Dependencies
 ```bash
     pip install -r requirements.txt
 ```
+Download weights from Google Drive
+```bash
+    gdown --id 1EDUARyROWS1yUbqTcZ0AhJ7K-31M9MZk
+    unzip weight.zip
+```
+Manually from ```bash https://drive.google.com/file/d/1EDUARyROWS1yUbqTcZ0AhJ7K-31M9MZk/view?usp=drive_link ```
+
 
 Run Flask program
 ```bash
-    python api.py
+    python application.py
 ```
 
-Choose your image and click Upload button <br>
-Wait untill you get the segmented output
+Run Browser to test segmentation
+```
+ http://127.0.0.1:5000
+```
 
-Click ReTake Button to test on new images
+Choose your image and click the Upload button <br>
+Wait until you get the segmented output
+
+Click the ReTake Button to test new images
 
 ## API 
 URL: http://127.0.0.1:5000/detectart
@@ -41,11 +53,7 @@ POST body
 
 Flask app.
 │   application.py
-│   artdector.ipynb
-│   contourDetection.py
-│   findArt.py
-│   imageSegmentor.py
-│   metrics.py
+│   src
 │   README.md
 │   requirements.txt
 │
@@ -61,6 +69,7 @@ Flask app.
 ├───templates
 │       index.html
 │       output.html
+|───weights
 ```
 
 NOTE: The name of your main flask app must be **application.py**
